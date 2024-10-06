@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0b0d1b;
+    color: white;
+    background-image: url('https://freerangestock.com/sample/37396/space-background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #f2f2f2;
+}
+
+section {
+    padding: 40px;
+    margin: 20px 0;
+}
+
+a.button {
+    background-color: #4CAF50;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+    position: sticky;
+}
+
+a.button:hover {
+    background-color: #45a049;
+}
+
+#website-link {
+    text-align: center;
+    padding: 50px 0;
+}
+
+#button{
+    background-color: #0b0f34;
+}
+
+#button.hover{
+    background-color: #45a049;
+}
+
+#planets {
+    text-align: center;
+}
+
+.planet-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 40px;
+}
+
+.planet-display {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 65%;
+}
+
+.planet-display img {
+    width: 100%;
+    height: 100%;
+    border-radius: 65%;
+    animation: rotate 10s linear infinite;
+}
+
+@keyframes rotate {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.planet-info {
+    max-width: 350px;
+}
+
+.planet-info h3 {
+    font-size: 1.8em;
+    margin: 0;
+}
+
+.planet-info p {
+    color: #ccc;
+    font-size: 1.2em;
+}
+
+#team {
+    text-align: center;
+}
+
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    text-align: center;
+}
+
+.team-member img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+.team-member p {
+    color: #aaa;
+}
